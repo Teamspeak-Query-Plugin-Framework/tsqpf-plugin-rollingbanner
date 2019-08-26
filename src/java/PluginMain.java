@@ -17,7 +17,7 @@ public class PluginMain extends PluginInterface {
         if (!isReady) {
             onDisable();
         } else {
-            Thread rollBannerThread = new Thread(rollBannerTask);
+            rollBannerThread = new Thread(rollBannerTask);
             rollBannerThread.start();
         }
     }
