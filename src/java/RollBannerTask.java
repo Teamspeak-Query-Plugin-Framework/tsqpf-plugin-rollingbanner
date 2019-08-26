@@ -21,12 +21,6 @@ public class RollBannerTask implements Runnable {
         this.api = api;
         this.config = config;
 
-        // Get / Set config
-        config.setDefault("bannerGfxUrls", "https://via.placeholder.com/350x150;https://via.placeholder.com/350x150/0000FF/808080");
-        config.setDefault("bannerUrls", "https://vortexdata.net");
-        config.setDefault("cycleDelay", "20");
-        config.saveAll();
-
         try {
             cycleDelay = (Integer.parseInt(config.readValue("cycleDelay")));
         } catch (Exception e) {
