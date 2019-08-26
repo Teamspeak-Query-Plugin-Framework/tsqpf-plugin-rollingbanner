@@ -22,13 +22,13 @@ public class PluginMain extends PluginInterface {
         RollBannerTask rollBannerTask = new RollBannerTask(getLogger(), getAPI(), getConfig());
         boolean isReady = rollBannerTask.getIsReady();
         if (!isReady) {
+            getLogger().printError("Can not start RollBanner task. Unloading...");
             onDisable();
         } else {
+            getLogger().printInfo("RollingBanner loaded.");
             rollBannerThread = new Thread(rollBannerTask);
             rollBannerThread.start();
         }
-
-        getLogger().printInfo("RollingBanner loaded.");
     }
 
     @Override
