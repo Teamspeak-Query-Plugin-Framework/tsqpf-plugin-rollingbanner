@@ -6,7 +6,7 @@ public class PluginMain extends PluginInterface {
 
     @Override
     public String getName() {
-        return "RollBannerTask";
+        return "RollingBanner";
     }
 
     @Override
