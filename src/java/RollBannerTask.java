@@ -49,7 +49,8 @@ public class RollBannerTask implements Runnable {
         }
 
         if (bannerGfxUrls.length == 0) {
-
+            isReady = false;
+            logger.printError("Can not start RollingBanner task. Config value bannerGfxUrls is empty.");
         }
     }
 
