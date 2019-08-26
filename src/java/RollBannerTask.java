@@ -31,7 +31,7 @@ public class RollBannerTask implements Runnable {
             cycleDelay = (Integer.parseInt(config.readValue("cycleDelay")));
         } catch (Exception e) {
             logger.printError("Could not set the banner cycle delay. Please check your config for non-numeric characters in field cycleDelay. Using default value (20) instead.");
-            cycleDelay = 20;
+            cycleDelay = 10000;
         }
 
         try {
