@@ -11,12 +11,20 @@ public class PluginMain extends PluginInterface {
 
     @Override
     public void onEnable() {
-        rollBannerThread = new Thread(new RollBannerTask(getLogger(), getAPI()));
-        rollBannerThread.start();
+
+        RollBannerTask rollBannerTask = new RollBannerTask(getLogger(), getAPI(), getConfig());
+        boolean isReady = rollBannerTask.getIsReady();
+        if (!isReady) {
+            onDisable();
+        } else {
+            Thread rollBannerThread = new Thread(rollBannerTask);
+            rollBannerThread.start();
+        }
     }
 
     @Override
     public void onDisable() {
+        getLogger().printInfo("Unloading RollingBanner...");
         rollBannerThread.interrupt();
         rollBannerThread = null;
     }
