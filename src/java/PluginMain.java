@@ -27,6 +27,8 @@ public class PluginMain extends PluginInterface {
             rollBannerThread = new Thread(rollBannerTask);
             rollBannerThread.start();
         }
+
+        getLogger().printInfo("RollingBanner loaded.");
     }
 
     @Override
