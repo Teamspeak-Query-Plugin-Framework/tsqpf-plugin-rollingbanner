@@ -15,7 +15,7 @@ public class PluginMain extends PluginInterface {
         // Get Config
         getConfig().setDefault("bannerGfxUrls", "https://via.placeholder.com/350x150;https://via.placeholder.com/350x150/0000FF/808080");
         getConfig().setDefault("bannerUrls", "https://vortexdata.net");
-        getConfig().setDefault("cycleDelay", "20");
+        getConfig().setDefault("cycleDelay", "10000");
         getConfig().saveAll();
 
 
