@@ -15,7 +15,7 @@ public class PluginMain extends PluginInterface {
         // Get Config
         getConfig().setDefault("bannerGfxUrls", "https://via.placeholder.com/350x150;https://via.placeholder.com/350x150/0000FF/808080");
         getConfig().setDefault("bannerUrls", "https://vortexdata.net");
-        getConfig().setDefault("cycleDelay", "10000");
+        getConfig().setDefault("cycleDelay", "60");
         getConfig().saveAll();
 
 
@@ -25,7 +25,6 @@ public class PluginMain extends PluginInterface {
             getLogger().printError("Can not start RollBanner task. Unloading...");
             onDisable();
         } else {
-            getLogger().printInfo("RollingBanner loaded.");
             rollBannerThread = new Thread(rollBannerTask);
             rollBannerThread.start();
         }
@@ -33,7 +32,6 @@ public class PluginMain extends PluginInterface {
 
     @Override
     public void onDisable() {
-        getLogger().printInfo("Unloading RollingBanner...");
         rollBannerThread.interrupt();
         rollBannerThread = null;
     }

@@ -24,7 +24,7 @@ public class RollBannerTask implements Runnable {
         try {
             cycleDelay = (Integer.parseInt(config.readValue("cycleDelay")));
             if (cycleDelay < 3000)
-                logger.printWarn("Cycle delay is lower than the recommended minimum delay of 3000 milliseconds.");
+                logger.printWarn("Cycle delay is lower than the recommended minimum delay of 3 seconds.");
         } catch (Exception e) {
             logger.printError("Could not set the banner cycle delay. Please check your config for non-numeric characters in field cycleDelay. Using default value (20) instead.");
             cycleDelay = 10000;
@@ -62,7 +62,7 @@ public class RollBannerTask implements Runnable {
         do {
 
             try {
-                Thread.sleep(cycleDelay);
+                Thread.sleep(cycleDelay * 1000);
             } catch (InterruptedException e) {
                 logger.printDebug("Encountered an Interrupted Exception whilst waiting for delay to complete.");
             }
