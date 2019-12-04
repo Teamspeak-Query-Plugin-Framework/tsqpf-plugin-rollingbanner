@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92bd18e-8f3d-48cb-9cc3-33b92eb1f59d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/PluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollingBanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/RollBannerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollingBanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="476">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/java/PluginMain.java" />
         <option value="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/PluginMain.java" />
         <option value="$PROJECT_DIR$/src/java/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java" />
       </list>
     </option>
   </component>
@@ -126,7 +125,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575486088660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575486257555" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/[19y10m29d] tsqpf-2.0.0-mint-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1566769386428" duration="1123000" />
       <workItem from="1566822626564" duration="4311000" />
       <workItem from="1566905941779" duration="33000" />
-      <workItem from="1575485112457" duration="976000" />
+      <workItem from="1575485112457" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Init code">
       <created>1566770502410</created>
@@ -264,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575485762518</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adjusted to fit 2.0 plugin system">
+      <created>1575486102541</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575486102541</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6443000" />
+    <option name="totallyTimeSpent" value="6611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -321,7 +327,8 @@
     <MESSAGE value="Added load message" />
     <MESSAGE value="Adjusted config" />
     <MESSAGE value="Implemented new API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented new API" />
+    <MESSAGE value="Adjusted to fit 2.0 plugin system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted to fit 2.0 plugin system" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/Config.java" />
@@ -332,20 +339,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java">
+    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollingBanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollingBanner.java">
+    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/rollingbanner/RollBannerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="476">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

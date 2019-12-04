@@ -26,7 +26,7 @@ public class RollBannerTask implements Runnable {
 
         try {
             cycleDelay = (Integer.parseInt(config.readValue("cycleDelay")));
-            if (cycleDelay < 3000)
+            if (cycleDelay < 3)
                 logger.printWarn("Cycle delay is lower than the recommended minimum delay of 3 seconds.");
         } catch (Exception e) {
             logger.printError("Could not set the banner cycle delay. Please check your config for non-numeric characters in field cycleDelay. Using default value (20) instead.");
