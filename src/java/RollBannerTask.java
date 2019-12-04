@@ -1,6 +1,7 @@
 import com.github.theholywaffle.teamspeak3.*;
 import com.github.theholywaffle.teamspeak3.api.*;
 import net.vortexdata.tsqpf.modules.*;
+import net.vortexdata.tsqpf.plugins.*;
 
 import java.util.*;
 
