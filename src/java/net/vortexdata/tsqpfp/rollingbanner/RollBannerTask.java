@@ -1,3 +1,5 @@
+package net.vortexdata.tsqpfp.rollingbanner;
+
 import com.github.theholywaffle.teamspeak3.*;
 import com.github.theholywaffle.teamspeak3.api.*;
 import net.vortexdata.tsqpf.modules.*;

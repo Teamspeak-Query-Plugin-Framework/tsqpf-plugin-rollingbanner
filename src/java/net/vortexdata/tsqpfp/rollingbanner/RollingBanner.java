@@ -1,13 +1,10 @@
-import net.vortexdata.tsqpf.modules.*;
+package net.vortexdata.tsqpfp.rollingbanner;
 
-public class PluginMain extends PluginInterface {
+import net.vortexdata.tsqpf.plugins.*;
+
+public class RollingBanner extends TeamspeakPlugin {
 
     Thread rollBannerThread;
-
-    @Override
-    public String getName() {
-        return "RollingBanner";
-    }
 
     @Override
     public void onEnable() {
