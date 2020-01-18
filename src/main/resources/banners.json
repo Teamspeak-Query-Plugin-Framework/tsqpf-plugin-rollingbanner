@@ -1,0 +1,19 @@
+[
+  {
+    "displayTime":"10",
+    "imageSrc":"https://via.placeholder.com/350x150",
+    "redirectUrl":"https://vortexdata.net"
+  },
+
+  {
+    "displayTime":"30",
+    "imageSrc":"https://via.placeholder.com/350x250",
+    "redirectUrl":"https://github.com/Vortexdata"
+  },
+
+  {
+    "displayTime":"20",
+    "imageSrc":"https://via.placeholder.com/350x350",
+    "redirectUrl":"https://github.com/Teamspeak-Query-Plugin-Framework"
+  }
+]
